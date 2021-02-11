@@ -1,0 +1,33 @@
+.full{
+    padding: 20px;
+}
+#logo img{
+    width: 100px;
+}
+#searchbar{
+    height: 50px;
+}
+#searchButton{
+    height: 50px;
+    width: 100px;
+}
+.food img{
+    height: 14em;
+    width: 16 em;
+}
+#foods{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 4em;
+    grid-row-gap: 5em;
+    align-items: center;
+    justify-items: center;
+}
+.food{
+    height: 16em;
+    background-color:rgb(240, 62, 17);
+    width: fit-content;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
