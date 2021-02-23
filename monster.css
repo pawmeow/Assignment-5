@@ -11,11 +11,7 @@
     height: 50px;
     width: 100px;
 }
-.food img{
-    height: 14em;
-    width: 16 em;
-}
-#foods{
+#searchResult{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 4em;
@@ -23,11 +19,11 @@
     align-items: center;
     justify-items: center;
 }
-.food{
-    height: 16em;
-    background-color:rgb(240, 62, 17);
-    width: fit-content;
-    text-align: center;
-    font-weight: bold;
-    color: white;
+#mealInfo{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+#mealInfo{
+    margin-bottom: 20px;
 }
